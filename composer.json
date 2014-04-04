@@ -1,5 +1,5 @@
 {
-	"name": "nette/forms",
+	"name": "esports/forms",
 	"description": "Nette Forms: greatly facilitates web forms",
 	"homepage": "http://nette.org",
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
