@@ -253,3 +253,15 @@ test(function() use ($series) { // disabled one
 
 	Assert::null( $input->getValue() );
 });
+
+test(function() {
+    $_POST = array('select' => 1);
+
+    $form = new Form;
+    $input = $form->addSelect('select', null, array(
+        1 => null,
+        2, 'Red dwarf'
+    ));
+
+    Assert::same( 1, $input->getValue() );
+});
